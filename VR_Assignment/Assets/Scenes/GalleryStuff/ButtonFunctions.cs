@@ -5,8 +5,8 @@ using UnityEngine;
 public class ButtonFunctions : MonoBehaviour
 {
 
-    public GameObject flower1;
-    public GameObject F1button;
+    public GameObject f1 , f2, f3, cat, arcade, car, ship;
+    public GameObject F1button , F2button, F3button, arcadebutton, catbutton , carbutton, shipbutton;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +21,38 @@ public class ButtonFunctions : MonoBehaviour
 
     public void Flower1()
     {
-        flower1.SetActive(true);
+        f1.SetActive(true);
         F1button.SetActive(false);
+    }
+
+    public void Flower2()
+    {
+        f2.SetActive(true);
+        F2button.SetActive(false);
+    }
+    public void Flower3()
+    {
+        f3.SetActive(true);
+        F3button.SetActive(false);
+    }
+    public void Cat()
+    {
+        cat.SetActive(true);
+        catbutton.SetActive(false);
+    }
+    public void Car()
+    {
+        car.SetActive(true);
+        carbutton.SetActive(false);
+    }
+    public void Ship()
+    {
+        ship.SetActive(true);
+        shipbutton.SetActive(false);
+    }
+     public void Arcade()
+    {
+        arcade.SetActive(true);
+        arcadebutton.SetActive(false);
     }
 }
